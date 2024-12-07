@@ -9,7 +9,6 @@ from app.routers.quizzes import router as quizzes_router
 from app.routers.questions import router as questions_router
 
 
-
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -33,6 +32,10 @@ app.include_router(quizzes_router, prefix="/quizzes", tags=["quizzes"])
 app.include_router(questions_router, prefix="/questions", tags=["questions"])
 
 
+@app.get("/")
+def root():
+    return {"message": "Service is running"}
+
 
 @app.get("/healthcheck")
 def health_check():
@@ -43,9 +46,7 @@ def health_check():
 def send_ping():
     while True:
         try:
-            response = requests.get(
-                "https://8379-178-91-253-103.ngrok-free.app/healthcheck"
-            )
+            response = requests.get("https://basalt-tst.onrender.com/docs")
             print(f"Ping status: {response.status_code}")
         except Exception as e:
             print(f"Failed to ping the server: {e}")
