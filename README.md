@@ -6,17 +6,17 @@ Basalt is a platform for creating structured educational content, including less
 
 ## **Features**
 
-- **User Authentication and Authorization**:
+- ### **User Authentication and Authorization** ###:
 - Two-Factor Registration: Users register with email verification to ensure secure account creation.*
 - Password Reset: Users can initiate a password reset process via email.*
 - User Authentication: Secure login and authentication using OAuth2 and JWT tokens.*
   
-- **Lesson Management**: 
+- ### **Lesson Management** ###: 
 - Create Lessons: Dynamically generate lessons with text and quizzes.
 - Manage Lessons: Update or delete lessons created by the user.
 - Lesson Audio: Automatically generate audio files for lessons using TTS.
 
-- **Quiz and Question Management**:
+- ### **Quiz and Question Management** ###:
 - Quizzes: Create, retrieve, update, and delete quizzes for lessons.
 - Questions: Add, edit, and delete questions in quizzes.
 - Submit Quiz: Evaluate quiz submissions and provide a summary of correct answers.
@@ -25,9 +25,9 @@ Basalt is a platform for creating structured educational content, including less
 
 - **FastAPI**: High-performance web framework for building APIs.
 - **SQLAlchemy**: SQL toolkit and ORM library for database management.
--	**Alembic**: Database migration tool integrated with SQLAlchemy.
--	**Edge-TTS**: Text-to-speech integration for audio generation.
--	**SQLite**: Lightweight relational database for development.
+- **Alembic**: Database migration tool integrated with SQLAlchemy.
+- **Edge-TTS**: Text-to-speech integration for audio generation.
+- **SQLite**: Lightweight relational database for development.
 
 
 ## **Structure**
