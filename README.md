@@ -1,6 +1,8 @@
-video demonstration: https://drive.google.com/file/d/1HWKsy8HBT9FhZYVGBuIhp3AnNhtWNRFH/view?usp=sharing
-linkto deployed website: https://basalt-tst.onrender.com/
-link to deployed documentation: https://basalt-tst.onrender.com/docs/
+- video demonstration: https://drive.google.com/file/d/1HWKsy8HBT9FhZYVGBuIhp3AnNhtWNRFH/view?usp=sharing
+
+- linkto deployed website: https://basalt-tst.onrender.com/
+
+- link to deployed documentation: https://basalt-tst.onrender.com/docs/
 
 # **Project Overview**
 Basalt is a platform for creating structured educational content, including lessons, quizzes, and questions. It features two-factor registration for secure user onboarding, password reset functionality, dynamic lesson generation, and text-to-speech (TTS) capabilities.
