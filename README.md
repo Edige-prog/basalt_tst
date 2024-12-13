@@ -35,7 +35,6 @@ Basalt is a platform for creating structured educational content, including less
 
 ## **Structure**
 ```
-.
 ├── README.md
 ├── alembic
 │   ├── README
